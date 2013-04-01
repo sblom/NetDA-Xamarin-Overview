@@ -36,7 +36,7 @@ namespace NetDA.iOS
 		{
 			// Update the user interface for the detail item
 			if (IsViewLoaded && detailItem != null)
-				detailDescriptionLabel.Text = detailItem.ToString ();
+				webView.LoadRequest(NSUrlRequest.FromUrl(NSUrl.FromString((string)detailItem)));
 		}
 		
 		public override void DidReceiveMemoryWarning ()
