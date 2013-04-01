@@ -34,6 +34,11 @@ namespace NetDA.iOS
 		}
 
 		#endregion
+
+		public override void RowSelected (UITableView tableView, MonoTouch.Foundation.NSIndexPath indexPath)
+		{
+			Controller_.DetailViewController.SetDetailItem (LinkSelector_ (List_[indexPath.Row]));
+		}
 	}
 }
 
