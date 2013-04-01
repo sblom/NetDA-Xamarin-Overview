@@ -98,10 +98,17 @@
     <Compile Include="DetailViewController.designer.cs">
       <DependentUpon>DetailViewController.cs</DependentUpon>
     </Compile>
+    <Compile Include="DataSource.cs" />
   </ItemGroup>
   <ItemGroup>
     <InterfaceDefinition Include="RootViewController.xib" />
     <InterfaceDefinition Include="DetailViewController.xib" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\NetDA.Core.iOS\NetDA.Core.iOS.csproj">
+      <Project>{E1171A0A-621A-4469-B753-7D9E7E54813A}</Project>
+      <Name>NetDA.Core.iOS</Name>
+    </ProjectReference>
+  </ItemGroup>
 </Project>
