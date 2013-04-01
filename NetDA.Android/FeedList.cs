@@ -32,6 +32,13 @@ namespace NetDA.Android
       var articles = Monologue_.Articles.Select(a => a.Title).ToArray();
       ListAdapter = new ArrayAdapter(this, global::Android.Resource.Layout.SimpleListItem1, articles);
     }
+    protected override void OnListItemClick(ListView l, View v, int position, long id)
+    {
+      base.OnListItemClick(l, v, position, id);
+      Intent intent = new Intent(this, typeof(Article));
+      intent.PutExtra("link", Monologue_.Articles[position].Url);
+      StartActivity(intent);
+    }
   }
 }
 
