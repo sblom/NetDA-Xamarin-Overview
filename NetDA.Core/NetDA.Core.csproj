@@ -32,4 +32,8 @@
     <Reference Include="System" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Compile Include="Article.cs" />
+    <Compile Include="Monologue.cs" />
+  </ItemGroup>
 </Project>

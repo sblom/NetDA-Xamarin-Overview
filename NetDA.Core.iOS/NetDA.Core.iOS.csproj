@@ -40,4 +40,12 @@
     <Folder Include="Resources\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Compile Include="..\NetDA.Core\Monologue.cs">
+      <Link>Monologue.cs</Link>
+    </Compile>
+    <Compile Include="..\NetDA.Core\Article.cs">
+      <Link>Article.cs</Link>
+    </Compile>
+  </ItemGroup>
 </Project>
