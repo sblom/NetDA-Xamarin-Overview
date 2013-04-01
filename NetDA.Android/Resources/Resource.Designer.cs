@@ -53,7 +53,7 @@ namespace NetDA.Android
 		{
 			
 			// aapt resource value: 0x7f050000
-			public const int MyButton = 2131034112;
+			public const int listView = 2131034112;
 			
 			private Id()
 			{
