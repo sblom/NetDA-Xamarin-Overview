@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetDA.iOS", "NetDA.iOS\NetDA.iOS.csproj", "{91C903AC-0F0E-478E-88D0-23CF81482653}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|iPhoneSimulator = Debug|iPhoneSimulator
+		Release|iPhoneSimulator = Release|iPhoneSimulator
+		Debug|iPhone = Debug|iPhone
+		Release|iPhone = Release|iPhone
+		Ad-Hoc|iPhone = Ad-Hoc|iPhone
+		AppStore|iPhone = AppStore|iPhone
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91C903AC-0F0E-478E-88D0-23CF81482653}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
+		{91C903AC-0F0E-478E-88D0-23CF81482653}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
+		{91C903AC-0F0E-478E-88D0-23CF81482653}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
+		{91C903AC-0F0E-478E-88D0-23CF81482653}.AppStore|iPhone.Build.0 = AppStore|iPhone
+		{91C903AC-0F0E-478E-88D0-23CF81482653}.Debug|iPhone.ActiveCfg = Debug|iPhone
+		{91C903AC-0F0E-478E-88D0-23CF81482653}.Debug|iPhone.Build.0 = Debug|iPhone
+		{91C903AC-0F0E-478E-88D0-23CF81482653}.Debug|iPhoneSimulator.ActiveCfg = Debug|iPhoneSimulator
+		{91C903AC-0F0E-478E-88D0-23CF81482653}.Debug|iPhoneSimulator.Build.0 = Debug|iPhoneSimulator
+		{91C903AC-0F0E-478E-88D0-23CF81482653}.Release|iPhone.ActiveCfg = Release|iPhone
+		{91C903AC-0F0E-478E-88D0-23CF81482653}.Release|iPhone.Build.0 = Release|iPhone
+		{91C903AC-0F0E-478E-88D0-23CF81482653}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
+		{91C903AC-0F0E-478E-88D0-23CF81482653}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = NetDA.iOS\NetDA.iOS.csproj
+	EndGlobalSection
+EndGlobal
