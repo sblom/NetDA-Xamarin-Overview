@@ -1,7 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "iOS", "iOS", "{357F196C-B091-47AF-8096-01C8E3725056}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetDA.iOS", "NetDA.iOS\NetDA.iOS.csproj", "{91C903AC-0F0E-478E-88D0-23CF81482653}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetDA.Core.iOS", "NetDA.Core.iOS\NetDA.Core.iOS.csproj", "{E1171A0A-621A-4469-B753-7D9E7E54813A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetDA.Core", "NetDA.Core\NetDA.Core.csproj", "{2435C003-AE50-4E4F-8680-5101CA07B76B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +19,18 @@ Global
 		AppStore|iPhone = AppStore|iPhone
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2435C003-AE50-4E4F-8680-5101CA07B76B}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{2435C003-AE50-4E4F-8680-5101CA07B76B}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{2435C003-AE50-4E4F-8680-5101CA07B76B}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{2435C003-AE50-4E4F-8680-5101CA07B76B}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{2435C003-AE50-4E4F-8680-5101CA07B76B}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{2435C003-AE50-4E4F-8680-5101CA07B76B}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{2435C003-AE50-4E4F-8680-5101CA07B76B}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{2435C003-AE50-4E4F-8680-5101CA07B76B}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{2435C003-AE50-4E4F-8680-5101CA07B76B}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{2435C003-AE50-4E4F-8680-5101CA07B76B}.Release|iPhone.Build.0 = Release|Any CPU
+		{2435C003-AE50-4E4F-8680-5101CA07B76B}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{2435C003-AE50-4E4F-8680-5101CA07B76B}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
 		{91C903AC-0F0E-478E-88D0-23CF81482653}.Ad-Hoc|iPhone.ActiveCfg = Ad-Hoc|iPhone
 		{91C903AC-0F0E-478E-88D0-23CF81482653}.Ad-Hoc|iPhone.Build.0 = Ad-Hoc|iPhone
 		{91C903AC-0F0E-478E-88D0-23CF81482653}.AppStore|iPhone.ActiveCfg = AppStore|iPhone
@@ -25,6 +43,22 @@ Global
 		{91C903AC-0F0E-478E-88D0-23CF81482653}.Release|iPhone.Build.0 = Release|iPhone
 		{91C903AC-0F0E-478E-88D0-23CF81482653}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
 		{91C903AC-0F0E-478E-88D0-23CF81482653}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
+		{E1171A0A-621A-4469-B753-7D9E7E54813A}.Ad-Hoc|iPhone.ActiveCfg = Release|Any CPU
+		{E1171A0A-621A-4469-B753-7D9E7E54813A}.Ad-Hoc|iPhone.Build.0 = Release|Any CPU
+		{E1171A0A-621A-4469-B753-7D9E7E54813A}.AppStore|iPhone.ActiveCfg = Release|Any CPU
+		{E1171A0A-621A-4469-B753-7D9E7E54813A}.AppStore|iPhone.Build.0 = Release|Any CPU
+		{E1171A0A-621A-4469-B753-7D9E7E54813A}.Debug|iPhone.ActiveCfg = Debug|Any CPU
+		{E1171A0A-621A-4469-B753-7D9E7E54813A}.Debug|iPhone.Build.0 = Debug|Any CPU
+		{E1171A0A-621A-4469-B753-7D9E7E54813A}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
+		{E1171A0A-621A-4469-B753-7D9E7E54813A}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
+		{E1171A0A-621A-4469-B753-7D9E7E54813A}.Release|iPhone.ActiveCfg = Release|Any CPU
+		{E1171A0A-621A-4469-B753-7D9E7E54813A}.Release|iPhone.Build.0 = Release|Any CPU
+		{E1171A0A-621A-4469-B753-7D9E7E54813A}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
+		{E1171A0A-621A-4469-B753-7D9E7E54813A}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{91C903AC-0F0E-478E-88D0-23CF81482653} = {357F196C-B091-47AF-8096-01C8E3725056}
+		{E1171A0A-621A-4469-B753-7D9E7E54813A} = {357F196C-B091-47AF-8096-01C8E3725056}
 	EndGlobalSection
 	GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = NetDA.iOS\NetDA.iOS.csproj
