@@ -54,6 +54,12 @@ namespace NetDA.iOS
 			TableView.Source = dataSource = new DataSource (this);
 		}
 
+		[Obsolete ("Deprecated in iOS6. Replace it with both GetSupportedInterfaceOrientations and PreferredInterfaceOrientationForPresentation")]
+		public override bool ShouldAutorotateToInterfaceOrientation (UIInterfaceOrientation toInterfaceOrientation)
+		{
+			return true;
+		}
+
 		class DataSource : UITableViewSource
 		{
 			static readonly NSString CellIdentifier = new NSString ("DataSourceCell");

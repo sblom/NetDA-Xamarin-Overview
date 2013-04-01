@@ -70,6 +70,12 @@ namespace NetDA.iOS
 			NavigationItem.SetLeftBarButtonItem (null, true);
 			masterPopoverController = null;
 		}
+
+		[Obsolete ("Deprecated in iOS6. Replace it with both GetSupportedInterfaceOrientations and PreferredInterfaceOrientationForPresentation")]
+		public override bool ShouldAutorotateToInterfaceOrientation (UIInterfaceOrientation toInterfaceOrientation)
+		{
+			return true;
+		}
 	}
 }
 
